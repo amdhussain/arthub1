@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "title": "Ethereal Dreams",
+    "artist": "Elara Voss",
+    "imageUrl": "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=600&q=80",
+    "description": "An abstract journey through color and emotion, capturing the essence of modern expressionism.",
+    "category": "Abstract",
+    "price": 1200
+  },
+  {
+    "id": 2,
+    "title": "Urban Solitude",
+    "artist": "Marcus Chen",
+    "imageUrl": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=600&q=80",
+    "description": "A striking piece that reflects the quiet beauty found in city life and architectural geometry.",
+    "category": "Modern",
+    "price": 850
+  },
+  {
+    "id": 3,
+    "title": "Golden Horizon",
+    "artist": "Sofia Reyes",
+    "imageUrl": "https://images.unsplash.com/photo-1549490349-8643362247b5?w=600&q=80",
+    "description": "Warm tones blend seamlessly in this landscape-inspired artwork that evokes sunset serenity.",
+    "category": "Classic",
+    "price": 2000
+  },
+  {
+    "id": 4,
+    "title": "Midnight Whispers",
+    "artist": "James Okonkwo",
+    "imageUrl": "https://images.unsplash.com/photo-1561214115-f2f134cc4912?w=600&q=80",
+    "description": "Deep blues and silvers dance across canvas in this contemplative nocturnal composition.",
+    "category": "Abstract",
+    "price": 1450
+  },
+  {
+    "id": 5,
+    "title": "Resonance",
+    "artist": "Yuki Tanaka",
+    "imageUrl": "https://images.unsplash.com/photo-1543857778-c4a1a3e0b2eb?w=600&q=80",
+    "description": "Vibrant geometric forms create a sense of rhythm and harmony in this contemporary masterpiece.",
+    "category": "Modern",
+    "price": 975
+  },
+  {
+    "id": 6,
+    "title": "Verdant Serenity",
+    "artist": "Priya Sharma",
+    "imageUrl": "https://images.unsplash.com/photo-1500462918059-b1a0cb512f1d?w=600&q=80",
+    "description": "Lush greens and organic shapes celebrate the tranquility and beauty of the natural world.",
+    "category": "Classic",
+    "price": 1600
+  },
+  {
+    "id": 7,
+    "title": "Fragments of Time",
+    "artist": "Liam O'Brien",
+    "imageUrl": "https://images.unsplash.com/photo-1579783900882-c0d3dad7d119?w=600&q=80",
+    "description": "Layered textures and muted tones explore memory and the passage of time.",
+    "category": "Abstract",
+    "price": 1100
+  },
+  {
+    "id": 8,
+    "title": "Neon Nights",
+    "artist": "Aiko Nakamura",
+    "imageUrl": "https://images.unsplash.com/photo-1554188248-986adbb73be4?w=600&q=80",
+    "description": "Electric cityscapes captured in vivid neon hues against the darkness of the urban night.",
+    "category": "Modern",
+    "price": 1300
+  },
+  {
+    "id": 9,
+    "title": "The Last Petal",
+    "artist": "Chloe Beaumont",
+    "imageUrl": "https://images.unsplash.com/photo-1579783901837-c78c2310e7e6?w=600&q=80",
+    "description": "A delicate still life that captures the fleeting beauty of a single bloom in exquisite detail.",
+    "category": "Classic",
+    "price": 720
+  },
+  {
+    "id": 10,
+    "title": "Cosmic Drift",
+    "artist": "Ravi Kapoor",
+    "imageUrl": "https://images.unsplash.com/photo-1541701494587-cb58502866ab?w=600&q=80",
+    "description": "Swirling galaxies and celestial forms merge in this otherworldly abstract composition.",
+    "category": "Abstract",
+    "price": 1850
+  },
+  {
+    "id": 11,
+    "title": "Rust & Bone",
+    "artist": "Hannah Brandt",
+    "imageUrl": "https://images.unsplash.com/photo-1515405295579-ba7b45403062?w=600&q=80",
+    "description": "Industrial textures and earthy tones combine in this raw, evocative mixed-media work.",
+    "category": "Modern",
+    "price": 940
+  },
+  {
+    "id": 12,
+    "title": "Tranquil Waters",
+    "artist": "Oliver Grant",
+    "imageUrl": "https://images.unsplash.com/photo-1578301978018-3005759f48f0?w=600&q=80",
+    "description": "Soft reflections on calm waters evoke a deep sense of peace and meditative stillness.",
+    "category": "Classic",
+    "price": 1500
+  }
+]

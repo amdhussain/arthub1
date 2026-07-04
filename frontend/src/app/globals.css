@@ -1,0 +1,68 @@
+@import "tailwindcss";
+
+@plugin "daisyui" {
+  themes: light --default, dark --prefersdark;
+}
+
+@theme inline {
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+
+  /* Page theme tokens — used by PageLayout + ThemeWrapper */
+  --page-bg-home: var(--color-amber-50);
+  --page-bg-auth: var(--color-sky-50);
+  --page-bg-marketplace: var(--color-teal-50);
+  --page-bg-dashboard: var(--color-slate-50);
+  --page-bg-artwork: var(--color-stone-50);
+  --page-bg-default: var(--color-base-200);
+
+  --page-text-home: var(--color-amber-950);
+  --page-text-auth: var(--color-sky-950);
+  --page-text-marketplace: var(--color-teal-950);
+  --page-text-dashboard: var(--color-slate-950);
+  --page-text-artwork: var(--color-stone-950);
+  --page-text-default: var(--color-base-content);
+}
+
+body {
+  font-family: var(--font-sans), system-ui, sans-serif;
+}
+
+/*
+ * Theme utility classes — apply via PageLayout or directly
+ */
+.theme-home {
+  --page-bg: var(--page-bg-home);
+  --page-text: var(--page-text-home);
+  --page-accent: var(--color-rose-500);
+}
+.theme-auth {
+  --page-bg: var(--page-bg-auth);
+  --page-text: var(--page-text-auth);
+  --page-accent: var(--color-indigo-500);
+}
+.theme-marketplace {
+  --page-bg: var(--page-bg-marketplace);
+  --page-text: var(--page-text-marketplace);
+  --page-accent: var(--color-emerald-500);
+}
+.theme-dashboard {
+  --page-bg: var(--page-bg-dashboard);
+  --page-text: var(--page-text-dashboard);
+  --page-accent: var(--color-blue-500);
+}
+.theme-artwork {
+  --page-bg: var(--page-bg-artwork);
+  --page-text: var(--page-text-artwork);
+  --page-accent: var(--color-rose-500);
+}
+
+/* Card glass effect — used across all pages */
+.glass-card {
+  @apply bg-white/70 dark:bg-base-300/70 backdrop-blur-lg border border-white/20 dark:border-base-300/50 shadow-lg rounded-xl;
+}
+
+/* Gradient overlay helper */
+.gradient-overlay {
+  @apply bg-gradient-to-br from-transparent via-transparent to-current/5;
+}
